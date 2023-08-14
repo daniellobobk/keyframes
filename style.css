@@ -2,7 +2,6 @@ body {
     margin: 0;
 }
 .bloco {
-    
     position: absolute;
     width: 150px;
     height: 150px;
@@ -19,12 +18,10 @@ body {
 }
 
 .bloco:hover {
-    
     border-radius: 0%;
 }
 
 @keyframes animacao {
-    
     0% {background-color: blueviolet; top: 0; left:0;}
     15% {background-color: brown;top: 0; left: 1000px;}
     25% {background-color: darkcyan;top: 250px; left:500px;}
@@ -32,5 +29,4 @@ body {
     75% {background-color: darkcyan;top: 500px; left: 0px;}
     85% {background-color: darkcyan;top: 250px; left:500px;}
     100% {background-color: seagreen;top: 0; left:0;}
-    
 }
