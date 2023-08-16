@@ -2,6 +2,7 @@ body {
     margin: 0;
 }
 .bloco {
+
     position: absolute;
     width: 150px;
     height: 150px;
@@ -15,6 +16,7 @@ body {
     box-shadow: 10px 10px 5px black;
     transition: all 1s linear;
     word-wrap: break-word;
+
 }
 
 .bloco:hover {
